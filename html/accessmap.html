@@ -3,63 +3,79 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>アクセスマップ</title>
 </head>
 
 <body>
-    <header>
-        <h1>会社までの道のり</h1>
-    </header>
-    <nav>
-        <ul>
-            <li>日比谷線 秋葉駅</li>
-            <li>末広町</li>
-            <li>岩本町</li>
-        </ul>
-    </nav>
-    <div>
-        <h2>駅からUDXまでの道のり</h2>
-        <section class="directions">
-            <h3>日比谷線 秋葉駅</h3>
-            <ol>
-                <li>道順1</li>
-                <li>道順2</li>
-                <li>道順3</li>
-                <li>道順4</li>
-            </ol>
-        </section>
-        <section class="directions">
-            <h3>末広町</h3>
-            <ol>
-                <li>道順1</li>
-                <li>道順2</li>
-                <li>道順3</li>
-                <li>道順4</li>
-            </ol>
-        </section>
-        <section class="directions">
-            <h3>岩本町</h3>
-            <ol>
-                <li>道順1</li>
-                <li>道順2</li>
-                <li>道順3</li>
-                <li>道順4</li>
-            </ol>
-        </section>
-    </div>
-    <div>
-        <h2>UDX内の道のり</h2>
-        <section class="directions">
-            <h3>21F</h3>
-            <ol>
-                <li>道順1</li>
-                <li>道順2</li>
-                <li>道順3</li>
-                <li>道順4</li>
-            </ol>
-        </section>
+    <div class="wrapper">
+        <header class="title">
+            <h1>アクセスマップ</h1>
+        </header>
+        <div class="main">
+            <nav class="navMenu">
+                <h2>
+                    <i class="fa fa-train"></i> 駅 <i class="fa fa-arrow-right"></i> UDX
+                </h2>
+                <ul class="sub">
+                    <li><a href="#hibiyaline">日比谷線 秋葉駅</a></li>
+                    <li><a href="#suehiro">銀座線 末広町</a></li>
+                    <li><a href="#iwamoto">都営新宿線 岩本町</a></li>
+                </ul>
+                <h2>
+                    <i class="fa fa-building"></i> UDX <i class="fa fa-arrow-right"></i> オフィス
+                </h2>
+                <ul class="sub">
+                    <li><a href="#office">5F~21F</a></li>
+                </ul>
+            </nav>
+            <div class="directions">
+                <h2>
+                    <i class="fa fa-train"></i> 駅 <i class="fa fa-arrow-right"></i> UDX
+                </h2>
+                <section class="way">
+                    <h3 id="hibiyaline">日比谷線 秋葉駅</h3>
+                    <ol>
+                        <li>3番出口を出る</li>
+                        <li>曲がる</li>
+                        <li>曲がる</li>
+                        <li>エスカレーター上る</li>
+                    </ol>
+                </section>
+                <section class="way">
+                    <h3 id="suehiro">末広町</h3>
+                    <ol>
+                        <li>１番出口を出る</li>
+                        <li>曲がる</li>
+                        <li>曲がる</li>
+                        <li>曲がる</li>
+                    </ol>
+                </section>
+                <section class="way">
+                    <h3 id="iwamoto">岩本町</h3>
+                    <ol>
+                        <li>道順1</li>
+                        <li>道順2</li>
+                        <li>道順3</li>
+                        <li>道順4</li>
+                    </ol>
+                </section>
+                <h2>
+                    <i class="fa fa-building"></i> UDX <i class="fa fa-arrow-right"></i> オフィス
+                </h2>
+                <section class="entrance">
+                    <h3 id="office">2~21F</h3>
+                    <ol>
+                        <li>5Fまでエスカレーターで上る</li>
+                        <li>西側（進行方向右）の手前のエレベーターに乗る</li>
+                        <li>21Fまで行く</li>
+                    </ol>
+                </section>
+            </div>
+        </div>
     </div>
 </body>
 
