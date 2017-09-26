@@ -38,18 +38,18 @@ a:hover {
     flex-direction: row;
     flex: 1 0 0;
 }
-.navMenu {
+.main__menu {
     flex: 0 1 230px;
     padding-right: 30px;
 }
-.sub {
+.menu__sub {
     margin: 10px;
 }
 
-.directions {
+.main__directions {
     flex: 1 0 300px;
 }
-.way, .entrance {
+[class^="directions__item"] {
     margin: 10px 10px 10px 5px;
 }
 ol {
